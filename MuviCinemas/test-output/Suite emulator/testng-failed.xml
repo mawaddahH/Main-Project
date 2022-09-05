@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite emulator]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="port_" value="4000"/>
+    <parameter name="platform_" value="12"/>
+    <parameter name="deviceName_" value="RFCT30AJMXT"/>
+    <classes>
+      <class name="mainProject.MuviCinemas.Stories">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="TC_07"/>
+        </methods>
+      </class> <!-- mainProject.MuviCinemas.Stories -->
+      <class name="mainProject.MuviCinemas.Showtimes">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="TC_11"/>
+        </methods>
+      </class> <!-- mainProject.MuviCinemas.Showtimes -->
+      <class name="mainProject.MuviCinemas.FiltersMovies">
+        <methods>
+          <include name="TC_09"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mainProject.MuviCinemas.FiltersMovies -->
+      <class name="mainProject.MuviCinemas.CreateAnAccountFunction">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="TC_02"/>
+          <include name="TC_04"/>
+          <include name="TC_03"/>
+          <include name="TC_05"/>
+        </methods>
+      </class> <!-- mainProject.MuviCinemas.CreateAnAccountFunction -->
+      <class name="mainProject.MuviCinemas.FoodMenu">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="TC_13"/>
+        </methods>
+      </class> <!-- mainProject.MuviCinemas.FoodMenu -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite emulator] -->

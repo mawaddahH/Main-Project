@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite emulator">
+    <listeners >
+    	<listener class-name="mainProject.MuviCinemas.ITestListenerTestNG" ></listener>
+    	<listener class-name="mainProject.MuviCinemas.RetryListenerClass"/>
+    </listeners>
+    
+  <test thread-count="2" parallel="tests" name="Test1" group-by-instances="true">
+    	<parameter name="deviceName_" value="RFCT30AJMXT" />
+	<parameter name="port_" value="4000" />
+	<parameter name="platform_" value="12" />
+    <classes>
+      <class name="mainProject.MuviCinemas.FoodMenu"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite Real Device]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test2(failed)">
+    <parameter name="port_" value="4001"/>
+    <parameter name="platform_" value="10"/>
+    <parameter name="deviceName_" value="23b9cb400c1c7ece"/>
+    <classes>
+      <class name="mainProject.MuviCinemas.CreateAnAccountFunction">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="TC_05" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- mainProject.MuviCinemas.CreateAnAccountFunction -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite Real Device] -->
