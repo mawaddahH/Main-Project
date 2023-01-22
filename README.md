@@ -1,9 +1,20 @@
 # Main-Project
 Final Project - SDA - Software QA Bootcamp
 
+Please check out my presentation on [YouTube](https://youtube.com/watch?v=gTSHwJc515A&si=EnSIkaIECMiOmarE&t=12539) to get a better understanding :blush: .
+### Documents for more details:
+> **Note**
+> All the documents are assumed to be written solely for the project purpose :sparkles: .
+- [Software Requirments Specifications](https://drive.google.com/file/d/1hidPo_E4hen6eNCOTsPc_tlZ30ekWZ70/view?usp=share_link)
+- [Test Plan](https://drive.google.com/file/d/1TGoBrOyg99v6uau8SxLlASWgwDQFVq4k/view?usp=sharing)
+- [Test Scenario and Test Case](https://docs.google.com/spreadsheets/d/13VaoSIZm28grMXcxHBIJfErRykgoqmtA/edit?usp=sharing&ouid=116779757845172682463&rtpof=true&sd=true)
+- [Requirements Traceability Matrix](https://docs.google.com/spreadsheets/d/1uxofemcVzaO_2l9aq-FmX46UW1bJjYOJ/edit?usp=share_link&ouid=116779757845172682463&rtpof=true&sd=true)
+- [Bug Report ](https://drive.google.com/file/d/1gZ3Tc0c3O_2is1QgmnneSVqabUoTxlWY/view?usp=sharing)
+- [Test Summary Report](https://drive.google.com/file/d/1RIVV_hYBzhZ3krw2btvQ3Fg7bVF8OOmX/view?usp=sharing)
 
 
-# Output 
+
+# Code Outputs 
 - FiltersMovies Class
 <p align="center">
 
